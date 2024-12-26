@@ -29,11 +29,11 @@ pip install pandas numpy matplotlib scikit-learn streamlit joblib
 ## Usage
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/employees-burnout-analysis-and-prediction.git
+git clone https://github.com/viveksinghn7/Employee-burnout-analysis-and-prediction.git
 ```
 2. Navigate to the project directory:
 ```bash
-cd employees-burnout-analysis-and-prediction
+cd Employee-burnout-analysis-and-prediction
 ```
 3. Run the Streamlit application:
 ```bash
