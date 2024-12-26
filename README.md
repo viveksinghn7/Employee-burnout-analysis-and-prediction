@@ -9,7 +9,6 @@ In this project, we analyzed a dataset containing various factors that may contr
 ## Installation
 To run this project, you need to have Python installed along with the following libraries:
 - pandas
-- numpy
 - matplotlib
 - scikit-learn
 - streamlit
@@ -17,7 +16,7 @@ To run this project, you need to have Python installed along with the following 
 
 You can install the required libraries using the following command:
 ```bash
-pip install pandas numpy matplotlib scikit-learn streamlit joblib
+pip install pandas matplotlib scikit-learn streamlit joblib
 ```
 
 Alternatively, you can use the `requirements.txt` file to install the dependencies:
