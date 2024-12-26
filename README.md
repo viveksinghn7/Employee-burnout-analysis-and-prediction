@@ -19,6 +19,11 @@ You can install the required libraries using the following command:
 pip install pandas numpy matplotlib scikit-learn streamlit joblib
 ```
 
+Alternatively, you can use the `requirements.txt` file to install the dependencies:
+```bash
+pip install -r requirements.txt
+```
+
 ## Usage
 1. Clone the repository:
 ```bash

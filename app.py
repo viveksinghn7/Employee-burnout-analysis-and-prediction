@@ -1,16 +1,13 @@
 # Importing the necessary libraries
 import streamlit as st
 import pandas as pd
-import pickle as pkl
+import joblib
 
 # Loading the trained KNN regression model
-with open('knn_regression.pkl', 'rb') as model_file:
-    model = pkl.load(model_file)
+model = joblib.load('knn_regression.pkl')
 
 # Loading the scaler used for data preprocessing
-with open('scaler.pkl', 'rb') as scaler_file:
-    scaler = pkl.load(scaler_file)
-
+scaler = joblib.load('scaler.pkl')
 
 def main():
     st.title("Employee Burnout Prediction")
