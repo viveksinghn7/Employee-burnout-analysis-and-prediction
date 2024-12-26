@@ -4,10 +4,10 @@ import pandas as pd
 import joblib
 
 # Loading the trained KNN regression model
-model = joblib.load('knn_regression.pkl')
+model = joblib.load('models/knn_regression.pkl')
 
 # Loading the scaler used for data preprocessing
-scaler = joblib.load('scaler.pkl')
+scaler = joblib.load('models/scaler.pkl')
 
 def main():
     st.title("Employee Burnout Prediction")
