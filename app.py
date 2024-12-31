@@ -59,7 +59,7 @@ def main():
         else:
             type = "Severe burnout, potentially impacting personal life and requiring immediate intervention."
 
-        st.write(f"Burnout Result: {type}")
+        st.write(f"{type}")
 
 
 if __name__ == "__main__":
